@@ -1,0 +1,233 @@
+/* landing page */
+/* top menu */
+.topmenu{
+  height: 100px;
+  padding: 5px;
+  position:fixed;
+  width: 100%; 
+}
+
+.navi {
+  float: right;
+  color:white;
+  margin-right: 150px;
+}
+
+a{
+  color:#fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  
+}
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.landing{
+  background-image: url(../images/home.jpeg);
+  height: 720px;
+  width: 1520px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.colourshed {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+}
+#push {
+  padding-top: 10%;
+}
+
+.landing-text {
+  margin-top: 6%;
+  text-align: center;
+}
+.landing-text h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 45px;
+  color: white;
+  
+}
+.middletext{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: initial;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  margin: auto;
+  width: 60%;
+
+}
+
+.button{
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  margin-left: 330px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: green;
+  font-weight: lighter;
+}
+.button a :hover{
+  background-color: green;
+  color: white;
+}
+
+
+
+/* what we do section */
+.about{
+  margin-top: 80px;
+  
+}
+#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left:18%;
+  margin-right: 16%; 
+}
+
+.col-md-3{
+  margin-left: 100px;
+  background-color: grey;
+}
+.loan{
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+  margin-left: 30px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: green;
+  font-weight: lighter;
+}
+a :hover{
+  background-color: green;
+  color: white; 
+}
+
+.vendor{
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+  margin-left: 30px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: green;
+  font-weight: lighter;
+}
+.email{
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+  margin-left: 30px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: green;
+  font-weight: lighter;
+}
+#woman{
+  background-color: white;
+}
+ /* The responsive website */
+ @media only screen and (max-width: 755px){
+    #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 16px;
+      padding-top: 20%;
+      
+    }
+    .col-md-3 img{
+      width:100%px;
+      margin: 20px;
+    }
+    #portfolio{
+      margin-left:8%;
+      margin-right: 16%; 
+    }
+    button{
+      margin-left: 2%;
+      padding-bottom: 30px;
+      margin-bottom: 20px;
+     
+    }
+  }
+@media only screen and (max-width: 425px){
+    #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 16px;
+      padding-top: 20%;
+      font-size: 20px;
+    }
+    .col-md-3 img{
+      width:100%px;
+      margin: 20px;
+    }
+    #portfolio{
+      margin-left:8%;
+      margin-right: 16%; 
+    }
+    button{
+      padding-bottom: 30px;
+      margin-bottom: 20px;
+    }
+    #MERGE0{
+      width: 84%;
+      margin-left: 4%;
+      padding-bottom: 10px;
+    }
+    #MERGE1{
+      width: 100%;
+      margin-left: 4%;
+      margin-bottom: 20px;
+    }
+    #comment{
+      margin-left: 4%;
+      width: 84%;
+    }
+  }
+@media only screen and (min-width: 825px){
+    #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 20px;
+      padding-top:30%; 
+    }
+    .col-md-3 img{
+      width: 400px;
+      margin: 20px;
+    }
+    #portfolio{
+      margin-left:10%;
+      margin-right: 10%; 
+    }
+  }
+@media only screen and (min-width: 625px){
+    #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 20px;
+      padding-top:20%; 
+      font-size: 26px;
+    }
+    .col-md-3 img{
+      width: 400px;
+      margin: 20px;
+    }
+    #portfolio{
+      margin-left:6%;
+      margin-right: 10%; 
+    }
+  }
+  
+  
