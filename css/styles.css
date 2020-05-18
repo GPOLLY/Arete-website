@@ -1,32 +1,37 @@
 /* landing page */
 /* top menu */
-.topmenu{
-  height: 100px;
+.navi {
+  height: 40px;
   padding: 5px;
   position:fixed;
-  width: 100%; 
-}
-
-.navi {
-  float: right;
-  color:white;
+  width: 100%;
+  overflow: hidden; 
+  top: 0;   
+  
+  color:black;
   margin-right: 150px;
+  background-color:yellow;   
 }
 
-a{
-  color:#fff;
+.navi a{
+  
+  color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 5px;
+  margin-right: 50px;
   
 }
 li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 3px;
+  color: black;
+  font-size: 20px;
+  padding: 5px;
 }
 
 .landing{
   background-image: url(../images/home.jpeg);
-  height: 720px;
+  height: 780px;
   width: 1520px;
   background-size: cover;
   background-position: center center;
@@ -76,19 +81,23 @@ li {
   color: white;
 }
 
-
-
 /* what we do section */
-.about{
-  margin-top: 80px;
-  
+/* #about{
+margin-top: 100px;
+} */
+
+.whatwedo h6{
+  text-align: center;
+  color: black;
+  font-size: 30px;   
 }
-#portfolio{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-left:18%;
-  margin-right: 16%; 
+
+.about{ 
+   height: 800px; 
+   
+}
+.portfolio{
+  margin-top: 60px;
 }
 
 .col-md-3{
@@ -133,6 +142,121 @@ a :hover{
 #woman{
   background-color: white;
 }
+
+/* Our stories */
+.ourstorymenu h1{
+  font-size: 30px;
+  color:black;
+  /* text-align: center; */
+  /* background-color:lime; */
+  padding: 7px;
+}
+
+.ourstory{
+  height: 780px;  
+  background-image: url(../images/background.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.storyid{
+  margin-top: 60px;
+}
+
+.col-md-4{
+  height: 300px;
+  padding: 5px;
+  
+}
+.story1{
+  height: 300px;
+  margin-left: 30px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 10px;
+  width: 300px;
+  height: 150px;
+  background-color:white;
+  color: black;
+  margin-left: 70px;
+}
+.readmore{
+  text-align: center;
+  margin-left: 50px;
+  
+}
+.button .readmore:hover{
+  background-color: yellow;
+}
+/* .button a :hover{
+  background-color: green;
+  color: white;
+} */
+
+.contact{
+  background-image: url(../images/contact3.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 780px;
+}
+.contact-setion{
+  margin-top: 200px;
+  margin-left: 20px;
+  background-color: wheat;
+  }
+
+  .contact-setion h1{
+    font-size: 20px;
+  }
+
+  .contactform{
+    background-color: white;
+     }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+  
  /* The responsive website */
  @media only screen and (max-width: 755px){
     #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
